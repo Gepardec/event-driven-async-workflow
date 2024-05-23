@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html"
+      xmlns:f="jakarta.faces.core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <title>State Machine - Example</title>
+
+    <h:outputStylesheet library="webjars" name="primeflex/3.3.1/primeflex.min.css"/>
+</h:head>
+
+<h:body>
+    <div class="grid ui-fluid">
+        <div class="col-12 md:col-6">
+            <p:panel header="Start Flow Execution" toggleable="true" toggleSpeed="500" widgetVar="panel1">
+                <h:form>
+                    <p:growl id="show_id_growl" for="latest_id" showDetail="true" sticky="true"/>
+
+
+                    <div class="grid ui-fluid">
+                        <div class="col-12 md:col-12">
+                            <p:card>
+                                <f:facet name="title">
+                                    Initial Flow Path
+                                </f:facet>
+                                <div class="grid ui-fluid">
+                                    <div class="col-12 md:col-4">
+                                        <p:selectOneButton unselectable="false"
+                                                           value="#{flowExecutionStartController.initialFlowPath}">
+                                            <f:selectItem
+                                                    itemLabel="#{flowExecutionStartController.possibleFlowPaths.get(0).name()}"
+                                                    itemValue="#{flowExecutionStartController.possibleFlowPaths.get(0).name()}"/>
+                                            <f:selectItem
+                                                    itemLabel="#{flowExecutionStartController.possibleFlowPaths.get(1).name()}"
+                                                    itemValue="#{flowExecutionStartController.possibleFlowPaths.get(1).name()}"/>
+                                        </p:selectOneButton>
+                                    </div>
+                                </div>
+                            </p:card>
+                        </div>
+                    </div>
+                    <div class="grid ui-fluid">
+                        <div class="col-12 md:col-12">
+                            <div class="grid ui-fluid">
+                                <div class="col-12 md:col-12">
+                                    <p:card>
+                                        <f:facet name="title">
+                                            Path 1 Results
+                                        </f:facet>
+                                        <div class="grid ui-fluid">
+                                            <div class="col-12 md:col-12">
+                                                <div class="ui-inputgroup">
+                                                    <div class="ui-inputgroup-addon" style="width: 10%;">1-1</div>
+                                                    <div style="width: 80%;">
+                                                        <p:selectOneButton unselectable="false"
+                                                                           value="#{flowExecutionStartController.useCase_1_1_Result}">
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"/>
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"/>
+                                                        </p:selectOneButton>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 md:col-12">
+                                                <div class="ui-inputgroup">
+                                                    <div class="ui-inputgroup-addon" style="width: 10%;">1-2</div>
+                                                    <div style="width: 80%;">
+                                                        <p:selectOneButton unselectable="false"
+                                                                           value="#{flowExecutionStartController.useCase_1_2_Result}">
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"/>
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"/>
+                                                        </p:selectOneButton>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 md:col-12">
+                                                <div class="ui-inputgroup">
+                                                    <div class="ui-inputgroup-addon" style="width: 10%;">1-3</div>
+                                                    <div style="width: 80%;">
+                                                        <p:selectOneButton unselectable="false"
+                                                                           value="#{flowExecutionStartController.useCase_1_3_Result}">
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"/>
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"/>
+                                                        </p:selectOneButton>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </p:card>
+                                </div>
+                            </div>
+                            <div class="grid ui-fluid">
+                                <div class="col-12 md:col-12">
+                                    <p:card>
+                                        <f:facet name="title">
+                                            Path 2 Results
+                                        </f:facet>
+                                        <div class="grid ui-fluid">
+                                            <div class="col-12 md:col-12">
+                                                <div class="ui-inputgroup">
+                                                    <div class="ui-inputgroup-addon" style="width: 10%;">2-1</div>
+                                                    <div style="width: 80%;">
+                                                        <p:selectOneButton unselectable="false"
+                                                                           value="#{flowExecutionStartController.useCase_2_1_Result}">
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"/>
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"/>
+                                                        </p:selectOneButton>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 md:col-12">
+                                                <div class="ui-inputgroup">
+                                                    <div class="ui-inputgroup-addon" style="width: 10%;">2-2</div>
+                                                    <div style="width: 80%;">
+                                                        <p:selectOneButton unselectable="false"
+                                                                           value="#{flowExecutionStartController.useCase_2_2_Result}">
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"/>
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"/>
+                                                        </p:selectOneButton>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 md:col-12">
+                                                <div class="ui-inputgroup">
+                                                    <div class="ui-inputgroup-addon" style="width: 10%;">2-3</div>
+                                                    <div style="width: 80%;">
+                                                        <p:selectOneButton unselectable="false"
+                                                                           value="#{flowExecutionStartController.useCase_2_3_Result}">
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(0).name()}"/>
+                                                            <f:selectItem
+                                                                    itemLabel="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"
+                                                                    itemValue="#{flowExecutionStartController.possibleFlowActionResults.get(1).name()}"/>
+                                                        </p:selectOneButton>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </p:card>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <p:card>
+                        <div class="grid ui-fluid">
+                            <p:commandButton value="Start" action="#{flowExecutionStartController.startFlowExecution()}"
+                                             styleClass="col-4 md:col-4 ui-button-secondary"
+                                             update="show_id_growl"/>
+                        </div>
+                    </p:card>
+                </h:form>
+            </p:panel>
+
+            <p:panel header="Show Flow Execution" toggleable="true" toggleSpeed="500" widgetVar="panel2">
+                <h:form>
+                    <p:card>
+                        <div class="justify-content-center flex">
+                            <div class="ui-inputgroup">
+                                <div class="ui-inputgroup-addon"><p:outputLabel value="ID"/></div>
+                                <p:inputNumber id="id_to_show" value="#{flowExecutionViewController.selectedId}"/>
+                                <p:commandButton update="chronoline_card" value="Show"/>
+                            </div>
+                        </div>
+                    </p:card>
+                    <p:poll interval="1" update="chronoline_card"/>
+                    <p:card id="chronoline_card">
+                        <p:chronoline value="#{flowExecutionViewController.chronolineEvents}" var="event"
+                                      align="alternate"
+                                      styleClass="customized-chronoline">
+
+                            <p:card>
+                                <f:facet name="title">
+                                    ${event.action.displayName}
+                                </f:facet>
+                                <f:facet name="subtitle">
+                                    Latest Change: ${event.timestamp}
+                                </f:facet>
+
+                                <p>Action State: ${event.result.name()}</p>
+                            </p:card>
+                        </p:chronoline>
+                    </p:card>
+                </h:form>
+            </p:panel>
+        </div>
+        <div class="col-12 md:col-6">
+            <div class="justify-content-center flex">
+                <img src="images/flow.drawio.png" style="max-width: 100%; padding: 10px; border: 1px solid #dee2e6; border-radius: 4px"
+                     alt="Flow State Machine Diagram"/>
+            </div>
+        </div>
+    </div>
+
+
+</h:body>
+
+</html>
