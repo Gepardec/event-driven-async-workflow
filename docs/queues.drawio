@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2024-05-24T08:11:37.945Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Iyv07uWWCp2V2Bhapvde" version="24.4.7" type="device">
+  <diagram name="Seite-1" id="fj3HExzc0poEgquorZxH">
+    <mxGraphModel dx="691" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nSjr75S0ceOl_vQVc9rQ-1" target="nSjr75S0ceOl_vQVc9rQ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-1" value="State Transition Queue" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#000000;shape=mxgraph.azure.queue_generic;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" parent="1">
+          <mxGeometry x="400" y="195" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-22" value="State Transition" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="191.25" width="50" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nSjr75S0ceOl_vQVc9rQ-5" target="nSjr75S0ceOl_vQVc9rQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nSjr75S0ceOl_vQVc9rQ-7" target="nSjr75S0ceOl_vQVc9rQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nSjr75S0ceOl_vQVc9rQ-22" target="nSjr75S0ceOl_vQVc9rQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="120" />
+              <mxPoint x="210" y="120" />
+              <mxPoint x="210" y="148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nSjr75S0ceOl_vQVc9rQ-22" target="nSjr75S0ceOl_vQVc9rQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="290" />
+              <mxPoint x="210" y="290" />
+              <mxPoint x="210" y="178" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nSjr75S0ceOl_vQVc9rQ-22" target="nSjr75S0ceOl_vQVc9rQ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="290" />
+              <mxPoint x="210" y="290" />
+              <mxPoint x="210" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nSjr75S0ceOl_vQVc9rQ-2" target="nSjr75S0ceOl_vQVc9rQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-2" value="Queue 1" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=middle;align=center;fillColor=#000000;shape=mxgraph.azure.queue_generic;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nSjr75S0ceOl_vQVc9rQ-3" target="nSjr75S0ceOl_vQVc9rQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-3" value="Queue n" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#000000;shape=mxgraph.azure.queue_generic;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nSjr75S0ceOl_vQVc9rQ-4" target="nSjr75S0ceOl_vQVc9rQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-4" value="Queue 2" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=middle;align=center;fillColor=#000000;shape=mxgraph.azure.queue_generic;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-5" value="Use Case 1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="136.25" width="50" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-6" value="Use Case 2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="166.25" width="50" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-7" value="Use Case n" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="246.25" width="50" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-13" value="" style="group;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="252.5" y="206" width="5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" parent="nSjr75S0ceOl_vQVc9rQ-13">
+          <mxGeometry width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" parent="nSjr75S0ceOl_vQVc9rQ-13">
+          <mxGeometry y="10" width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" parent="nSjr75S0ceOl_vQVc9rQ-13">
+          <mxGeometry y="20" width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-15" value="" style="group;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="332.5" y="206" width="5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" parent="nSjr75S0ceOl_vQVc9rQ-15">
+          <mxGeometry width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" parent="nSjr75S0ceOl_vQVc9rQ-15">
+          <mxGeometry y="10" width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;fontSize=10;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;" vertex="1" parent="nSjr75S0ceOl_vQVc9rQ-15">
+          <mxGeometry y="20" width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="nSjr75S0ceOl_vQVc9rQ-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nSjr75S0ceOl_vQVc9rQ-6" target="nSjr75S0ceOl_vQVc9rQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

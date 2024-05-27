@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net" modified="2024-05-23T13:39:18.424Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Oolk6Dr7bCHFZNxC7Hqz" version="24.4.6" type="device">
+  <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
+    <mxGraphModel dx="989" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-55" value="Path 1" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;fillColor=#6c8ebf;strokeColor=#6c8ebf;swimlaneFillColor=#dae8fa;sketch=1;curveFitting=1;jiggle=2;rounded=1;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="170" y="240" width="690" height="130" as="geometry">
+            <mxRectangle x="170" y="140" width="40" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-6" value="Use Case 1-1" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" vertex="1">
+          <mxGeometry x="80" y="20" width="82.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-21" value="Use Case 1-2" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" vertex="1">
+          <mxGeometry x="280" y="20" width="82.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-59" value="OK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAE8FA;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" source="CB23qE7CLjNzFdRbjK3I-17" target="CB23qE7CLjNzFdRbjK3I-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-17" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=strokeColor;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" vertex="1">
+          <mxGeometry x="200" y="25" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" source="CB23qE7CLjNzFdRbjK3I-6" target="CB23qE7CLjNzFdRbjK3I-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-22" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=strokeColor;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" vertex="1">
+          <mxGeometry x="410" y="25" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" source="CB23qE7CLjNzFdRbjK3I-21" target="CB23qE7CLjNzFdRbjK3I-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Use Case 1-3&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" vertex="1">
+          <mxGeometry x="490" y="20" width="82.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-34" value="OK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAE8FA;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" source="CB23qE7CLjNzFdRbjK3I-22" target="CB23qE7CLjNzFdRbjK3I-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-24" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=strokeColor;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" vertex="1">
+          <mxGeometry x="610" y="25" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-55" source="CB23qE7CLjNzFdRbjK3I-23" target="CB23qE7CLjNzFdRbjK3I-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-56" value="Path 2" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;fillColor=#82B366;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;sketch=1;curveFitting=1;jiggle=2;rounded=1;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="170" y="370" width="690" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-46" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=strokeColor;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-56" vertex="1">
+          <mxGeometry x="610" y="25" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-29" value="Use Case 2-3" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-56" vertex="1">
+          <mxGeometry x="490" y="20" width="82.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-56" source="CB23qE7CLjNzFdRbjK3I-29" target="CB23qE7CLjNzFdRbjK3I-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-28" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=strokeColor;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-56" vertex="1">
+          <mxGeometry x="410" y="25" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-41" value="OK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#D5E8D4;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-56" source="CB23qE7CLjNzFdRbjK3I-28" target="CB23qE7CLjNzFdRbjK3I-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-27" value="Use Case 2-2" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-56" vertex="1">
+          <mxGeometry x="280" y="20" width="82.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-56" source="CB23qE7CLjNzFdRbjK3I-27" target="CB23qE7CLjNzFdRbjK3I-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-26" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=strokeColor;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-56" vertex="1">
+          <mxGeometry x="200" y="25" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-39" value="OK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#D5E8D4;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-56" source="CB23qE7CLjNzFdRbjK3I-26" target="CB23qE7CLjNzFdRbjK3I-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-1" target="CB23qE7CLjNzFdRbjK3I-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-1" value="" style="ellipse;fillColor=strokeColor;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="140" y="125" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-7" value="PATH 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-4" target="CB23qE7CLjNzFdRbjK3I-6" edge="1">
+          <mxGeometry x="0.2982" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="291" y="140" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-30" value="PATH 2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBorderColor=none;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-4" target="CB23qE7CLjNzFdRbjK3I-25" edge="1">
+          <mxGeometry x="-0.7191" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="415" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-4" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=strokeColor;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-17" target="CB23qE7CLjNzFdRbjK3I-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="350" />
+              <mxPoint x="220" y="350" />
+              <mxPoint x="220" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-58" value="ERROR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#DAE8FA;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="CB23qE7CLjNzFdRbjK3I-50" vertex="1" connectable="0">
+          <mxGeometry x="-0.8822" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-51" value="ERROR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#DAE8FA;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-22" target="CB23qE7CLjNzFdRbjK3I-25" edge="1">
+          <mxGeometry x="-0.9422" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="350" />
+              <mxPoint x="220" y="350" />
+              <mxPoint x="220" y="415" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-48" value="OK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#DAE8FA;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-24" target="CB23qE7CLjNzFdRbjK3I-43" edge="1">
+          <mxGeometry x="-0.7328" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-49" value="ERROR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#DAE8FA;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-24" target="CB23qE7CLjNzFdRbjK3I-25" edge="1">
+          <mxGeometry x="-0.9582" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="350" />
+              <mxPoint x="220" y="350" />
+              <mxPoint x="220" y="415" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-25" target="CB23qE7CLjNzFdRbjK3I-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-25" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Use Case 2-1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="250" y="390" width="82.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-44" value="ERROR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#D5E8D4;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-26" target="CB23qE7CLjNzFdRbjK3I-43" edge="1">
+          <mxGeometry x="-0.8592" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="480" />
+              <mxPoint x="895" y="480" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-45" value="ERROR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#D5E8D4;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-28" target="CB23qE7CLjNzFdRbjK3I-43" edge="1">
+          <mxGeometry x="-0.9187" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="450" />
+              <mxPoint x="895" y="450" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-43" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="880" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-52" value="OK&lt;br style=&quot;font-size: 14px;&quot;&gt;ERROR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#D5E8D4;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-46" target="CB23qE7CLjNzFdRbjK3I-43" edge="1">
+          <mxGeometry x="-0.5995" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CB23qE7CLjNzFdRbjK3I-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" parent="1" source="CB23qE7CLjNzFdRbjK3I-46" target="CB23qE7CLjNzFdRbjK3I-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D9dafyuPQdY5oEtYcHpo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.246;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Just Another Hand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJust%2BAnother%2BHand;fontSize=14;" edge="1" parent="1" source="CB23qE7CLjNzFdRbjK3I-25" target="CB23qE7CLjNzFdRbjK3I-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
