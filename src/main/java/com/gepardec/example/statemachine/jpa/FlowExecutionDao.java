@@ -17,7 +17,6 @@ public class FlowExecutionDao {
   private EntityManager entityManager;
 
   public FlowExecution getFlowExecutionById(Long flowExecutionId) {
-    logger.info("Getting FlowExecution by id: " + flowExecutionId);
     return entityManager.find(FlowExecution.class, flowExecutionId);
   }
 

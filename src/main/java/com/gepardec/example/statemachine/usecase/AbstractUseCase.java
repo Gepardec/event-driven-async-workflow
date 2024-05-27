@@ -27,13 +27,10 @@ public abstract class AbstractUseCase {
   @Transactional
   public void execute(Long flowExecutionId) {
     getLogger().info("Executing use case for flow execution with id " + flowExecutionId);
-    try {
-      Thread.sleep(5000);
-    } catch (InterruptedException e) {
-      getLogger().severe("Error while executing use case for flow execution with id " + flowExecutionId);
-    }
 
     FlowExecution flowExecution = flowExecutionDao.getFlowExecutionById(flowExecutionId);
+
+    performAction(flowExecution);
 
     FlowState lastState = ListUtils.getMax(flowExecution.getFlowStates(), Comparator.comparing(FlowState::getId));
     lastState.setResult(calculateUseCaseResult(flowExecution, lastState));
@@ -42,6 +39,14 @@ public abstract class AbstractUseCase {
     flowExecutionDao.updateFlowExecution(flowExecution);
     eventPublisher.sendEvent(flowExecutionId, "STATETRANSITION");
     getLogger().info("Use case for flow execution with id " + flowExecutionId + " executed");
+  }
+
+  private void performAction(FlowExecution flowExecution) {
+    try {
+      Thread.sleep(5000);
+    } catch (InterruptedException e) {
+      getLogger().severe("Error while executing use case for flow execution with id " + flowExecution.getId());
+    }
   }
 
   private FlowActionResult calculateUseCaseResult(FlowExecution flowExecution, FlowState lastState) {
