@@ -26,23 +26,20 @@ image::src/main/webapp/images/flow.drawio.png[Example Workflow]
 
 2. Type this command to build and deploy the archive:
 
-   ```shell
-   mvn clean package -P provisioned-server
-   ```
+[source, sh, subs="+attributes"]
+mvn clean package -P provisioned-server
 
 3. This will build a WAR file, download and provision a Wildfly server, and deploy the WAR file to the server (the fully configured server can be found in the `target/server` directory).
 
 4. Run the following command to start the server:
 
-   ```shell
-   mvn wildfly:start
-   ```
+[source, sh, subs="+attributes"]
+mvn wildfly:start
 
 5. Launch the demo-frontend at <http://localhost:8080>.
 
 6. Run the following command to stop the server:
 
-   ```shell
-    mvn wildfly:shutdown
-    ```
+[source, sh, subs="+attributes"]
+mvn wildfly:shutdown
 
